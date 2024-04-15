@@ -1,16 +1,22 @@
 .logo {margin-top: 10px;  width: 250px; vertical-align:middle;}
 .body-content {font-family:Arial, Helvetica, sans-serif; font-size: medium;}
-.book_table {font-family:Arial, Helvetica, sans-serif; font-size: medium; width:40%;}
-body {text-align: center;}
+.book_table {font-family:Arial, Helvetica, sans-serif; font-size: medium;}
+body {text-align: center; vertical-align: top;}
 body { background-color: black; color: white;}
 .body-content {text-align: center; margin-left: 18vw; margin-right: 18vw; font-size: 20px; line-height: 1.5; }
 .restaurant-images {margin-top: 15px;}
 .homepage-images {display: inline-block; width: 30vw; padding: 20px;}
 .Coupon-webpage-link {color:rgb(227, 15, 15);}
-.make-reservation {display: inline-block; width: 30%;}
+/*
+.make-reservation {display: inline-block; width: 30%;} 
 .reservation-inline-content {display: inline-block; width:30%;}
-.book_table {display: inline-block; width: 30%; background-color: #BE965A;}
+.book_table {display: inline-block; background-color: #BE965A;}
 .download-code {font-size: 55px;}
 .reservation-inline-content {font-size: 20px; text-align: justify ;margin-left: 10vw; background-color: #BE965A; }
+*/
+.grid-item {display:inline-block; vertical-align: top;}
 .button { background-color: white ; padding: 15px 32px; text-align: center; font-size: 20px; }
-.grid-container {display:inline-grid; column-gap: 0px;}
+.reservation-inline-content , .make-reservation { width: 450px; height: 250px;  font-size:20px; }
+.together {background-color: #BE965A; width: 70vw; margin-top: 10px;}
+label {width:80px; display: inline-block; text-align: left; margin-top: 10px;}
+input {width:150px; display: inline-block; text-align: left; margin-top: 10px}
